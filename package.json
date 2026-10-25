@@ -1,0 +1,15 @@
+{
+  "name": "campusos-student-management",
+  "version": "1.0.0",
+  "private": true,
+  "description": "CampusOS Student Management System - Framer-grade Fullstack MERN",
+  "scripts": {
+    "install:all": "npm --prefix backend install && npm --prefix frontend install",
+    "dev:backend": "npm --prefix backend run dev",
+    "dev:frontend": "npm --prefix frontend run dev",
+    "seed": "npm --prefix backend run seed",
+    "build": "npm --prefix frontend run build",
+    "docker:up": "docker compose up --build",
+    "docker:down": "docker compose down"
+  }
+}
